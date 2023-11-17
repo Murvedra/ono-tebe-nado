@@ -311,7 +311,8 @@ body {
   list-style-type: none; /* убираем стиль списка */
 }
 
-.footer__list-link { 
+.footer__list-link {
+
   text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
 }
 
