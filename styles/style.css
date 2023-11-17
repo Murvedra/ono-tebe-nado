@@ -1,1 +1,361 @@
-/* место для вашего кода */
+body {
+  width: 1440px;
+  font-style: normal;
+}
+
+/* HEADER */
+
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 92px 49px 92px 51px;
+}
+
+/* HEADER NAV */
+
+.header__menu {
+  display: flex;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  list-style: circle;
+  gap: 32px;
+  line-height: 24.3px;
+}
+
+
+.header__list-none {
+  list-style-type: none; /* убираем стиль списка */
+}
+
+.header__list-none-link {
+  text-decoration: none; /* убираем стиль ссылки */
+}
+
+.header__list-link { 
+text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
+}
+
+/* HEADER LOGO */
+
+.header__logo {
+  width: 140px;
+  height: 108px;
+}
+
+.header__logo-center {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+
+/* HEADER ADDRESS */
+
+.header__address {
+  display: grid;
+  justify-self: end;
+  font-style: normal;
+}
+
+.header__list-address {
+  padding-right: 5px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+
+/* COVER */
+
+.cover {
+  background: url("../images/cover.jpg") center/cover;
+  color: #fff;
+}
+
+.cover__title {
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cover__description {
+  margin-top: 135px;
+  height: 52px;
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  align-items: center;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: end;
+  word-spacing: 17.5px;
+  text-transform: uppercase;
+  margin-right: 6%;
+}
+
+/* OVERLAY */
+
+.overlay {
+  height: inherit;
+  padding: 165px 50px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ALIGN */
+
+.aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  width: 100%;
+  max-width: 1310px;
+  text-align: center;
+
+}
+
+.aligned-text_right {
+  text-align: right;
+  line-height: 100px;
+}
+
+/* LETTER SPACING */
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+/* NO LETTER SPACING */
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+/* BUTTON */
+
+.bet-button {
+  height: 100%;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  padding: 15px 32px;
+}
+
+/* LOTS */
+  
+.lots {
+  padding: 180px 50px;
+}
+
+.lots__heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 27px 40px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap; /* контролируем переносы*/
+  gap: 25px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  flex: 1 0 0%;
+  min-height: 450px;
+  min-width: 430px;
+}
+
+.lots__card-list-item {
+  width: 33.3%;
+}
+
+.lots__card-list-item:last-child {
+  width: 33.3%;
+}
+
+.lots__look-more-link {
+  text-decoration: none;
+  text-transform: lowercase; /* буквы все низкие */
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+}
+
+/* CARD */
+
+.card {
+  height: inherit;
+  color: #fff;
+}
+
+.card_type_film {
+  background: url(../images/card-lot-01.jpg) center/cover;
+}
+
+.card_type_book {
+  background: url(../images/card-lot-02.jpg) center/cover;
+}
+
+.card_type_picture {
+  background: url(../images/card-lot-03.jpg) center/cover;
+}
+
+.card-link {
+  height: 100%;
+  text-decoration: none;
+}
+
+.card .overlay {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card__text {
+  line-height: 120%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* ABOUT */
+
+.about {
+  display: flex;
+  gap: 25px;
+  padding: 0 50px 182px 50px;
+}
+
+.about__column:last-child {
+  margin-top: 103px;
+}
+
+.about__logo {
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 95px;
+  padding: 63px 46px;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about__text {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  color: #000;
+  padding: 0 50px 90px 50px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+
+.footer__address {
+    display: grid;
+    justify-self: start;
+    font-style: normal;
+}
+
+/*.footer__list-address {
+  padding-right: 5px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+}*/
+
+.footer__list-none {
+  list-style-type: none; /* убираем стиль списка */
+}
+
+.footer__list-link { 
+text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
+}
+
+.footer__menu {
+  display: grid;
+  justify-self: center;
+  align-self: start;
+  font-style: normal;
+}
+
+.footer__menu-list {
+  line-height: normal;
+  list-style: none;
+  text-align: center;
+  display: grid;
+  align-content: start;
+}
+
+.footer__menu-link {
+  text-underline-position: under;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: end;
+  align-self: start;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
+
