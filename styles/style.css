@@ -41,7 +41,7 @@ body {
 }
 
 .header__list-link { 
-text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
+  text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
 }
 
 /* HEADER LOGO */
@@ -188,14 +188,6 @@ text-underline-offset: 4px; /* опускаем подчеркивание сс�
   min-width: 430px;
 }
 
-.lots__card-list-item {
-  width: 33.3%;
-}
-
-.lots__card-list-item:last-child {
-  width: 33.3%;
-}
-
 .lots__look-more-link {
   text-decoration: none;
   text-transform: lowercase; /* буквы все низкие */
@@ -320,7 +312,7 @@ text-underline-offset: 4px; /* опускаем подчеркивание сс�
 }
 
 .footer__list-link { 
-text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
+  text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
 }
 
 .footer__menu {
