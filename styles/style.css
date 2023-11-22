@@ -99,13 +99,12 @@
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   z-index: 2;
 }
 
 .cover__description {
   margin-top: 135px;
-  max-height: 52px;
   display: flex;
   justify-content: end;
   align-content: center;
@@ -127,26 +126,21 @@
 
 /* ALIGN */
 
-.aligned-text {
-  word-spacing: 10.3em;
-}
 
 .aligned-text_left {
   text-align: left;
-  z-index: 2;
+  line-height: 115%;
 }
 
 .aligned-text_center {
   width: 100%;
   text-align: center;
-  z-index: 2;
-  word-spacing: 0.3em;
+  line-height: 100%;
 }
 
 .aligned-text_right {
   text-align: right;
-  line-height: 100px;
-  z-index: 2;
+  line-height: 100%;
 }
 
 /* LETTER SPACING */
@@ -235,9 +229,7 @@
   text-decoration: none;
 }
 
-.card_type_film,
-.card_type_book,
-.card_type_picture {
+.card_type {
   background-size: cover;
   background-position: center;
   width: 100%;
