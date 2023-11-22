@@ -35,8 +35,8 @@
   text-decoration: none; /* убираем стиль ссылки */
 }
 
-.header__list-link { 
-  text-underline-offset: 4px; /* опускаем подчеркивание ссылкам */
+.header__list-link {
+  text-underline-offset: 4px;
 }
 
 /* HEADER LOGO */
@@ -212,9 +212,9 @@
 
 /* CARD */
 
-.card { 
-  height: inherit; 
-  color: #fff; 
+.card {
+  height: inherit;
+  color: #fff;
   box-sizing: border-box;
   padding: 50px 40px;
   position: relative;
